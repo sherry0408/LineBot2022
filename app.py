@@ -186,7 +186,7 @@ def getNameEmojiMessage():
         "emojiId": "047"
       },
     ]
-    message = TextSendMessage(name = "$$$", emojis=emoji)
+    message = dict(name = "$$$", emojis=emoji)
     return message
 
 
